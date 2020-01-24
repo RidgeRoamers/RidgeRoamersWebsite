@@ -1,0 +1,68 @@
+/* Add here all your css styles (customizations) */
+
+@media (min-width: 992px) {
+    .header .logo img {
+        width: 120px;
+    }
+
+    .header .navbar-nav > li {
+        position: relative;
+        left: 36px;
+    }
+    .header .navbar-nav > li > a > span{
+        position: relative;
+        left: 6px;
+    }
+
+    .header .navbar-nav {
+
+    }
+
+}
+
+.about-co img {
+    width: 140px;
+    height: 140px;
+}
+
+@media (max-width: 991px) {
+    .header .logo img {
+        content:url("/assets/img/logo/logo-words.png");
+    }
+
+}
+
+.sky-form .footer-message {
+    display: none;
+    color: #6fb679;
+}
+.sky-form .footer-message i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #6fb679;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right:20px;
+}
+.sky-form.submited .footer-message{
+    display: inline-block;
+    background:inherit;
+    font: 300 14px 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+/*Custom Sky Forms (Advanced Contacts Page)*/
+.sky-changes-3.sky-form,
+.sky-changes-3.sky-form footer {
+    border: none;
+}
+
+.sky-changes-3.sky-form footer,
+.sky-changes-3.sky-form fieldset {
+    padding: 0;
+    background: none;
+}
+
+.margin-top-40 { margin-top: 40px;}
